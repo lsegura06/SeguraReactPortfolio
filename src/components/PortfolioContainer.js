@@ -2,6 +2,7 @@ import {
   Outlet
 } from 'react-router-dom';
 import NavTabs from './NavTabs';
+import Footer from './Footer';
 
 
 export default function PortfolioContainer() {
@@ -12,6 +13,7 @@ export default function PortfolioContainer() {
         <NavTabs />
         {/* We're invoking a function that returns a component - always showing our user a page */}
         <Outlet />
+        <Footer />
       </div>
     
   );

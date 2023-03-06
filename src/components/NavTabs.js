@@ -8,7 +8,7 @@ function NavTabs() {
   const location = useLocation();
 
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs bg-secondary">
       <li className="nav-item">
         <Link
           to="/"
@@ -27,7 +27,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/blog"
+          to="/Blog"
           className={location.pathname === "/blog" ? 'nav-link active' : 'nav-link'}
         >
           Blog

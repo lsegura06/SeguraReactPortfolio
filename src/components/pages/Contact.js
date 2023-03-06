@@ -1,22 +1,49 @@
 import React from 'react';
+import { Formik, Form, Field, ErrorMessage } from 'formik';
+import * as Yup from 'yup';
+
+const ContactSchema = Yup.object().shape({
+  name: Yup.string().required('Name is required'),
+  email: Yup.string().email('Invalid email address').required('Email is required'),
+  message: Yup.string().required('Message is required'),
+});
 
 export default function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <Formik
+        initialValues={{ name: '', email: '', message: '' }}
+        validationSchema={ContactSchema}
+        onSubmit={(values) => {
+          // Handle submission logic here
+          console.log(values);
+        }}
+      >
+        {({ errors, touched }) => (
+          <Form>
+            <div>
+              <label htmlFor="name">Name:</label>
+              <Field type="text" name="name" id="name" />
+              <ErrorMessage name="name" component="div" className="error" />
+            </div>
+
+            <div>
+              <label htmlFor="email">Email:</label>
+              <Field type="email" name="email" id="email" />
+              <ErrorMessage name="email" component="div" className="error" />
+            </div>
+
+            <div>
+              <label htmlFor="message">Message:</label>
+              <Field as="textarea" name="message" id="message" />
+              <ErrorMessage name="message" component="div" className="error" />
+            </div>
+
+            <button type="submit">Submit</button>
+          </Form>
+        )}
+      </Formik>
     </div>
   );
 }
