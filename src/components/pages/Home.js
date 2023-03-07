@@ -5,6 +5,8 @@ import '../../styles/style.css';
 
 export default function Home() {
   return (
+    <div className="animated-bg">
+      <div className="image-layer">
     <Container fluid>
       <Row className="home-container align-items-center">
         <Col md={6} className="text-center">
@@ -20,5 +22,7 @@ export default function Home() {
         </Col>
       </Row>
     </Container>
+    </div>
+    </div>
   );
 }

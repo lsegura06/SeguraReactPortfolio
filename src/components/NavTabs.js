@@ -8,7 +8,7 @@ function NavTabs() {
   const location = useLocation();
 
   return (
-    <ul className="nav nav-tabs bg-secondary">
+    <ul className="nav nav-tabs bg-light">
       <li className="nav-item">
         <Link
           to="/"

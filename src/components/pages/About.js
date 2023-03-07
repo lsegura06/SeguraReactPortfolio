@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import '../../styles/style.css';
 
 export default function About() {
   const proficiencies = [
@@ -13,6 +14,8 @@ export default function About() {
   ];
 
   return (
+    <div className="animated-bg">
+      <div className="image-layer">
     <Container className="text-center">
       <h1 className="mt-5">Resume</h1>
 
@@ -29,5 +32,7 @@ export default function About() {
         ))}
       </ul>
     </Container>
+    </div>
+    </div>
   );
 }

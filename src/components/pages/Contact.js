@@ -2,6 +2,7 @@ import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { Container, Row, Col } from 'react-bootstrap';
+import '../../styles/style.css';
 
 const ContactSchema = Yup.object().shape({
   name: Yup.string().required('Name is required'),
@@ -11,6 +12,8 @@ const ContactSchema = Yup.object().shape({
 
 export default function Contact() {
   return (
+    <div className="animated-bg">
+      <div className="image-layer">
     <Container>
       <Row className="justify-content-center">
         <Col md={6}>
@@ -50,6 +53,8 @@ export default function Contact() {
         </Col>
       </Row>
     </Container>
+    </div>
+    </div>
   );
 }
 

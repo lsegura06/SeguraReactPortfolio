@@ -11,6 +11,8 @@ import project5 from '../../assets/images/Project5.PNG';
 
 export default function Blog() {
   return (
+    <div className="animated-bg">
+      <div className="image-layer">
     <Container fluid>
       <h1>Portfolio Page</h1>
       <Row>
@@ -96,6 +98,8 @@ export default function Blog() {
         </Col>
       </Row>
     </Container>
+    </div>
+    </div>
           );
 
 }
