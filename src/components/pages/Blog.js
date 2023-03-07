@@ -1,6 +1,7 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import '../../styles/style.css';
 import project1 from '../../assets/images/Project1.PNG';
 import project2 from '../../assets/images/Project2.PNG';
 import project3 from '../../assets/images/Project3.PNG';
