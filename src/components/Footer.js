@@ -13,7 +13,7 @@ function Footer() {
                     </a>
                 </li>
                 <li>
-                    <a href="" className="text-decoration-none">
+                    <a href="https://www.linkedin.com/in/leo-segura-a31948239/" className="text-decoration-none">
                         <i className="fab fa-linkedin fa-2x"></i>
                     </a>
                 </li>
