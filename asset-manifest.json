@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SeguraReactPortfolio/static/css/main.f1a67753.css",
-    "main.js": "/SeguraReactPortfolio/static/js/main.55749772.js",
+    "main.js": "/SeguraReactPortfolio/static/js/main.07fc57b5.js",
     "static/media/fa-solid-900.ttf": "/SeguraReactPortfolio/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
     "static/media/fa-brands-400.ttf": "/SeguraReactPortfolio/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
     "static/media/fa-solid-900.woff2": "/SeguraReactPortfolio/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
@@ -18,10 +18,10 @@
     "static/media/fa-v4compatibility.woff2": "/SeguraReactPortfolio/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
     "index.html": "/SeguraReactPortfolio/index.html",
     "main.f1a67753.css.map": "/SeguraReactPortfolio/static/css/main.f1a67753.css.map",
-    "main.55749772.js.map": "/SeguraReactPortfolio/static/js/main.55749772.js.map"
+    "main.07fc57b5.js.map": "/SeguraReactPortfolio/static/js/main.07fc57b5.js.map"
   },
   "entrypoints": [
     "static/css/main.f1a67753.css",
-    "static/js/main.55749772.js"
+    "static/js/main.07fc57b5.js"
   ]
 }
