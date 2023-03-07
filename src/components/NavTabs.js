@@ -22,15 +22,15 @@ function NavTabs() {
           to="/about"
           className={location.pathname === "/about" ? 'nav-link active' : 'nav-link'}
         >
-          About
+          Resume
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/Blog"
-          className={location.pathname === "/blog" ? 'nav-link active' : 'nav-link'}
+          to="/Portfolio"
+          className={location.pathname === "/Porfolio" ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Porfolio
         </Link>
       </li>
       <li className="nav-item">

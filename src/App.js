@@ -2,7 +2,7 @@ import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Blog from './components/pages/Blog';
+import Porfolio from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
 import {
   createBrowserRouter,
@@ -16,7 +16,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<PortfolioContainer />}>
       <Route index element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/blog" element={<Blog />} />
+      <Route path="/portfolio" element={<Porfolio />} />
       <Route path="/contact" element={<Contact />} />
     </Route>
   )

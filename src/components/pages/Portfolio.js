@@ -9,7 +9,7 @@ import project4 from '../../assets/images/Project4.PNG';
 import project5 from '../../assets/images/Project5.PNG';
 
 
-export default function Blog() {
+export default function Portfolio() {
   return (
     <div className="animated-bg">
       <div className="image-layer">
