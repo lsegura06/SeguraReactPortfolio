@@ -25,6 +25,7 @@ npm i
 
 ## Usage
 Has four tabs, a home, about, portofoli, and contact. each tab has different contents depending on which youre on.
+[Deployed Version]()
 
 
 
