@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/SeguraReactPortfolio/static/css/main.9b037f87.css",
+    "main.js": "/SeguraReactPortfolio/static/js/main.a9a2fc89.js",
+    "static/media/fa-solid-900.ttf": "/SeguraReactPortfolio/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/fa-brands-400.ttf": "/SeguraReactPortfolio/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/SeguraReactPortfolio/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/SeguraReactPortfolio/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/Project1.PNG": "/SeguraReactPortfolio/static/media/Project1.98837de909c92e451f14.PNG",
+    "static/media/Project2.PNG": "/SeguraReactPortfolio/static/media/Project2.8c1da15060bbe5fbd508.PNG",
+    "static/media/fa-regular-400.ttf": "/SeguraReactPortfolio/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/selfieme.jpg": "/SeguraReactPortfolio/static/media/selfieme.bebea3935f1a0ba233bb.jpg",
+    "static/media/Project5.PNG": "/SeguraReactPortfolio/static/media/Project5.7f4370b3bd8ad80b9594.PNG",
+    "static/media/fa-regular-400.woff2": "/SeguraReactPortfolio/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/Project3.PNG": "/SeguraReactPortfolio/static/media/Project3.b135b5a199b958614db9.PNG",
+    "static/media/Project4.PNG": "/SeguraReactPortfolio/static/media/Project4.26999c70e1828edd6d81.PNG",
+    "static/media/fa-v4compatibility.ttf": "/SeguraReactPortfolio/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/SeguraReactPortfolio/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/SeguraReactPortfolio/index.html",
+    "main.9b037f87.css.map": "/SeguraReactPortfolio/static/css/main.9b037f87.css.map",
+    "main.a9a2fc89.js.map": "/SeguraReactPortfolio/static/js/main.a9a2fc89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b037f87.css",
+    "static/js/main.a9a2fc89.js"
+  ]
+}
