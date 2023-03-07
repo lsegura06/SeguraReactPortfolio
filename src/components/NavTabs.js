@@ -11,32 +11,32 @@ function NavTabs() {
     <ul className="nav nav-tabs bg-light">
       <li className="nav-item">
         <Link
-          to="/"
-          className={location.pathname === "/" ? 'nav-link active' : 'nav-link'}
+          to="/SeguraReactPortfolio"
+          className={location.pathname === "/SeguraReactPortfolio/" ? 'nav-link active' : 'nav-link'}
         >
           Home
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/about"
-          className={location.pathname === "/about" ? 'nav-link active' : 'nav-link'}
+          to="/SeguraReactPortfolio/about"
+          className={location.pathname === "/SeguraReactPortfolio/about" ? 'nav-link active' : 'nav-link'}
         >
           Resume
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/Portfolio"
-          className={location.pathname === "/Porfolio" ? 'nav-link active' : 'nav-link'}
+          to="/SeguraReactPortfolio/Portfolio"
+          className={location.pathname === "/SeguraReactPortfolio/Porfolio" ? 'nav-link active' : 'nav-link'}
         >
           Porfolio
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/contact"
-          className={location.pathname === "/contact" ? 'nav-link active' : 'nav-link'}
+          to="/SeguraReactPortfolio/contact"
+          className={location.pathname === "/SeguraReactPortfolio/contact" ? 'nav-link active' : 'nav-link'}
         >
           Contact
         </Link>

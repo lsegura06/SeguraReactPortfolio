@@ -13,11 +13,11 @@ import {
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<PortfolioContainer />}>
+    <Route path="/SeguraReactPortfolio" element={<PortfolioContainer />}>
       <Route index element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/portfolio" element={<Porfolio />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/SeguraReactPortfolio/about" element={<About />} />
+      <Route path="/SeguraReactPortfolio/portfolio" element={<Porfolio />} />
+      <Route path="/SeguraReactPortfolio/contact" element={<Contact />} />
     </Route>
   )
 )
