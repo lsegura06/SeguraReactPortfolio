@@ -7,6 +7,7 @@ import project2 from '../../assets/images/Project2.PNG';
 import project3 from '../../assets/images/Project3.PNG';
 import project4 from '../../assets/images/Project4.PNG';
 import project5 from '../../assets/images/Project5.PNG';
+import project6 from '../../assets/images/game.PNG';
 
 
 export default function Portfolio() {
@@ -91,6 +92,22 @@ export default function Portfolio() {
                 <a href="https://github.com/lsegura06/WorkDayScheduler" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github"></i>
 
+                </a>
+              </div>
+            </div>
+          </div>
+        </Col>
+        <Col md={6} lg={4}>
+          <div className="project">
+            <img src={project6} alt="Project 4" className='img-fluid' />
+            <div className="overlay">
+              <div className="text">
+                <a href="https://lit-river-96559.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                  Deployed App
+                </a>
+                <br />
+                <a href="https://github.com/igurgoze/Astro-Friends" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-github"></i>
                 </a>
               </div>
             </div>
